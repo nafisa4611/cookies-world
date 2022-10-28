@@ -1,0 +1,57 @@
+[
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "Banana Cake Cookie",
+      "price": 420,
+      "img": "https://img.freepik.com/free-photo/vertical-shot-slices-delicious-banana-bread-with-chocolate-chunks-walnut-plate_181624-30273.jpg?w=360&t=st=1666938393~exp=1666938993~hmac=2e939dfa0e4d4c76f094fe68ac9a66f4ad5c3f61bee9dc96cab19b5641362235"
+    },
+    {
+      "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+      "name": "Choco Chips Cookie",
+      "price": 196,
+      "img": "https://img.freepik.com/premium-photo/cookie-with-strawberry-white-chocolate-filling_120872-20635.jpg?w=360"
+    },
+    {
+      "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+      "name": "Milk Choco Biscuit",
+      "price": 245,
+      "img": "https://img.freepik.com/premium-photo/winter-holidays-europe-netherlands_98731-248.jpg?w=360"
+    },
+    {
+      "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+      "name": "Royal Biscuit",
+      "price": 229,
+      "img": "https://img.freepik.com/free-photo/waffles_144627-39083.jpg?w=360&t=st=1666938473~exp=1666939073~hmac=7bce1e721d2f894e3ca891775dd341237b29714971d7d9e5a749fbd7cabbbc80"
+    },
+    {
+      "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+      "name": "Nan Khatai Biscuit",
+      "price": 287,
+      "img": "https://img.freepik.com/premium-photo/homemade-curd-cheese-with-raisin-walnut_105609-7563.jpg?w=360"
+    },
+    {
+      "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+      "name": "Toast soft Biscuit",
+      "price": 138,
+      "img": "https://img.freepik.com/free-photo/delicious-autumnal-dessert-flat-lay_23-2148668806.jpg?w=360&t=st=1666938513~exp=1666939113~hmac=a329d72a70630230b4f7dd3de2dc60b83b9f561625ea21a198413454bf5a8dc2"
+    },
+    {
+      "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+      "name": "Jam Biscuit",
+      "price": 226,
+      "img": "https://img.freepik.com/free-photo/vertical-shot-freshly-cooked-cookies-with-jam-christmas_181624-59482.jpg?w=360&t=st=1666938357~exp=1666938957~hmac=1c19833879c91dabdf0735967096527d9ac4804ae76ad6e2d52b5fa17165ee47"
+    },
+    {
+      "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
+      "name": "Milk Jam Biscuit",
+      "price": 319,
+      "img": "https://img.freepik.com/premium-photo/linzer-cookies-jam_138219-487.jpg?w=360"
+    },
+    {
+      "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
+      "name": "Choco Cranch Cookie",
+      "price": 260,
+      "img": "https://img.freepik.com/free-psd/cookie-packaging-design-mockup_23-2149352903.jpg?w=360&t=st=1666938654~exp=1666939254~hmac=c0b65cb2e2f0739058a99091f711b3c294db36c6511809d263c929b83f1ba80a"
+    }
+  ]
+  
