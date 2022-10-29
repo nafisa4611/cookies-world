@@ -28,7 +28,7 @@ const Cookies = () => {
                         </Cookie>)
                 }
             </div>
-            <div className='cart-container w-25 p-4 border'>
+            <div className='cart-container w-25 p-4 border sticky-top'>
                 <h5 className='text-center'>Order Summery</h5>
                 <p>Seleted Items: {cart.length}</p>
             </div>

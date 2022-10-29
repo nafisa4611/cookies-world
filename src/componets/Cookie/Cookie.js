@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 
 
@@ -13,10 +14,11 @@ const Cookie = (props) => {
                     <div className='card-body'>
                     <h5>{name}</h5>
                     <p>ID:{id}</p>
-                    <h4>Price: ${price}</h4>
+                    <h6>Price: ${price}</h6>
                     </div>
-                    <button onClick={() =>handleAddToCart(cookie)} className='btn btn-light btn-sm w-100'>
-                        <p className='btn-text fw-semibold text-center justify-content-center'>Add to Cart</p>
+                    <button onClick={() =>handleAddToCart(cookie)} className='btn btn-light btn-sm w-100 d-flex justify-content-center align-items-center'>
+                        <p className='btn-text  pt-2 px-1'>Add to Cart</p>
+                        <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
                     </button>
                 </div>
             </div>
