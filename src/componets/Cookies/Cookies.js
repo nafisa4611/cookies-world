@@ -17,11 +17,8 @@ const Cookies = () => {
         .then(data=>setCookies(data))
     },[])
     const handleAddToCart = (cookie) =>{
-        // console.log(cookie.name);
         const newCart = [...cart, cookie];
         setCart(newCart);
-        // console.log(newCart);
-        // console.log(newName);
         }
     const randomOne =(cart) =>{
         const randomChoose = Math.random(cart.name);
