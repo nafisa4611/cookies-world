@@ -7,6 +7,8 @@ import Cookie from '../Cookie/Cookie';
 const Cookies = () => {
     const [cookies, setCookies] = useState ([]);
     const [cart, setCart] = useState ([]);
+    const [randomChoose, setRandomChoose] = useState([]);
+    const [reset, setReset] = useState ([]);
    
 
     useEffect( () =>{
@@ -19,9 +21,16 @@ const Cookies = () => {
         const newCart = [...cart, cookie];
         setCart(newCart);
         // console.log(newCart);
-       
         // console.log(newName);
         }
+    const randomOne =(cart) =>{
+        const randomChoose = Math.random(cart.name);
+        setRandomChoose(randomChoose);
+    }
+    const resetButton = (cart) =>{
+        const reset = cart.length = 0;
+        setReset(reset);
+    }
    
     return (
         <div className='container d-flex justify-content-between'>
@@ -37,9 +46,11 @@ const Cookies = () => {
             <div className='cart-container w-25 p-4 border'>
                 <Cart 
                 cart={cart}
+                resetButton={resetButton}
+                randomOne={randomOne}
                 ></Cart>
             </div>
-
+                
         </div>
     );
 };
