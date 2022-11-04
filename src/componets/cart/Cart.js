@@ -30,7 +30,7 @@ const Cart = (props) => {
                 <button onClick={() =>randomOne(cart)}>Choose One for me</button>
             </div>
             <div>
-            <button onClick={() =>resetButton(cart)}>Reset</button>
+                <button onClick={() =>resetButton(cart)}>Reset</button>
             </div>
         </div>
     );
