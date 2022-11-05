@@ -17,12 +17,14 @@ const Cookies = () => {
             .then(data => setCookies(data))
     }, [])
     const handleAddToCart = (cookie) => {
-        const newCart = [...cart, cookie];
+        let newCart = [...cart, cookie];
         setCart(newCart);
     }
     const randomOne = (cart) => {
+        let random = [];
         const randomChoose = cart[Math.floor(Math.random() * cart.length)];
-        setRandomChoose(randomChoose);
+        random.push(randomChoose);
+        setRandomChoose(random);
         console.log(randomChoose);
     }
     const resetButton = (cart) => {
@@ -45,7 +47,9 @@ const Cookies = () => {
                 <Cart
                     cart={cart}
                     randomOne={randomOne}
+                    random={randomChoose}
                     resetButton={resetButton}
+                    
                 ></Cart>
             </div>
 
