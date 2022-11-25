@@ -6,6 +6,8 @@ import React from 'react';
 const Cookie = (props) => {
     const {cookie, handleAddToCart} = props;
     const {name, img, id, price} =props.cookie;
+
+    
     return (
         <div className=''>
             <div className='col'>

@@ -20,12 +20,16 @@ const Cookies = () => {
         let newCart = [...cart, cookie];
         setCart(newCart);
     }
+    const handleRemoveItem = (item) => {
+        const rest = cart.filter(pd => pd.id !== item.id);
+        setCart(rest);
+    }
     const randomOne = (cart) => {
         let random = [];
         const randomChoose = cart[Math.floor(Math.random() * cart.length)];
         random.push(randomChoose);
-        setRandomChoose(random);
-        console.log(randomChoose);
+        setCart(random);
+        // console.log(randomChoose);
     }
     const resetButton = (cart) => {
         const reset = cart.length = 0;
@@ -46,13 +50,12 @@ const Cookies = () => {
             <div className='cart-container w-25 p-4 border'>
                 <Cart
                     cart={cart}
+                    handleRemoveItem={handleRemoveItem}
                     randomOne={randomOne}
                     random={randomChoose}
-                    resetButton={resetButton}
-                    
-                ></Cart>
+                    resetButton={resetButton}>
+                </Cart>
             </div>
-
         </div>
     );
 };
